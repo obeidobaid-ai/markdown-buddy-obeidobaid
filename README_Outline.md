@@ -1,4 +1,4 @@
-> AI Assistance Declaration: ChatGPT (GPT-6) assisted with documentation structure, wording, Markdown examples, and this replacement package on November 16, 2026. Prompts and response summaries are recorded in Appendix.md. Automated file and syntax checks were performed by the assistant. Student verification, R execution, GitHub preview, and personal reflection review remain pending. No final numerical analysis is claimed.
+> AI Assistance Declaration: I used ChatGPT (GPT-6) for documentation structure, wording, Markdown examples, and revision. Prompts and key response summaries are in Appendix.md. I verified the project by running the R script, knitting the R Markdown to HTML, correcting the Purpose heading, and viewing the README on GitHub. The project imports and displays synthetic records and includes no analytical calculations. I am responsible for the accuracy and originality of my submission.
 
 # README outline
 

@@ -1,7 +1,8 @@
-# AI Assistance Declaration: ChatGPT (GPT-6) drafted this illustrative
-# documentation example on November 16, 2026. See Appendix.md.
-# Student review and R execution remain pending. No final calculations claimed.
-# Review or replace this sample with your own script before submission.
+# AI Assistance Declaration: I used ChatGPT (GPT-6) for documentation structure, wording, Markdown examples, and revision.
+# Prompts and key response summaries are in Appendix.md.
+# I verified the project by running the R script, knitting the R Markdown to HTML, correcting the Purpose heading, and viewing the README on GitHub.
+# The project imports and displays synthetic records and includes no analytical calculations.
+# I am responsible for the accuracy and originality of my submission.
 
 sales <- read.csv("synthetic_sales.csv", stringsAsFactors = FALSE)
 
