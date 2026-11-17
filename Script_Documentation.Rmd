@@ -1,0 +1,57 @@
+---
+title: "Documenting a Synthetic Sales Import Script"
+author: "Obeid Obaid"
+date: "November 16, 2026"
+output: html_document
+---
+
+> AI Assistance Declaration: ChatGPT (GPT-6) assisted with documentation structure, wording, Markdown examples, and this replacement package on November 16, 2026. Prompts and response summaries are recorded in Appendix.md. Automated file and syntax checks were performed by the assistant. Student verification, R execution, GitHub preview, and personal reflection review remain pending. No final numerical analysis is claimed.
+
+# Purpose
+
+This document explains `sales_import.R`, an illustrative script that reads and displays a synthetic sales table. It demonstrates clear R documentation without presenting final analytical calculations. The student must review the script and run this document before submission.
+
+## Inputs
+
+`synthetic_sales.csv` must be in the project working directory.
+
+| Column | Type | Meaning |
+| --- | --- | --- |
+| month | Character | Fictional month label |
+| sales | Numeric | Fictional sales amount in CAD |
+
+The file contains no real store, customer, or personal records.
+
+## Dependencies
+
+The script uses base R. Knitting this document also requires `rmarkdown` and Pandoc. Run knitting from the extracted project directory so relative paths resolve correctly.
+
+## Script walkthrough
+
+### Import the input
+
+The following example shows the import operation. It is displayed for explanation and is not run twice.
+
+```{r import-example, eval=FALSE}
+sales <- read.csv("synthetic_sales.csv", stringsAsFactors = FALSE)
+```
+
+### Validate and display
+
+The script checks the column names and types before printing the records. This chunk runs the actual script, keeping the documentation tied to its behavior.
+
+```{r run-script, echo=TRUE}
+source("sales_import.R", local = knitr::knit_global())
+```
+
+## Outputs
+
+The knitted document should show the imported table beneath the execution chunk. The script creates an in-memory object named `sales` and prints its records. It does not write output files or calculate totals.
+
+## Verification
+
+After knitting, compare the printed records with the CSV and check that all headers and code chunks display correctly. Record your actual findings in Verification.md. The assistant has checked the documentation structure but has not executed R or knitted this file.
+
+## AI disclosure
+
+ChatGPT (GPT-6) helped draft the explanations and illustrative code on November 16, 2026. The actual interaction is recorded in Appendix.md. Student validation remains pending.
